@@ -1,6 +1,14 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+}
+
 .body {
-    background-color: #E5E5E5;
-    color: #212121;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.accent {
+  color: #2196f3;
 }
 /* акцент #2196F3 */
 /* черный #212121 */
