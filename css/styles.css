@@ -8,6 +8,7 @@
   --primary-background-light-theme: #ffffff;
   --secondary-background-light-theme: #f5f4fa;
   --background-dark-theme: #2f303a;
+  --bottom-font-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -28,11 +29,17 @@ body {
 
 .logo {
   font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--primary-text-color);
 }
 
 .logo-link {
   color: var(--primary-font-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 /* =====start header=====*/
 
@@ -156,9 +163,9 @@ body {
 }
 
 .description {
-  font-family: in;
+  font-family: inherit;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -198,6 +205,15 @@ body {
 .title {
   font-style: normal;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.title-filter {
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -223,12 +239,13 @@ body {
   color: var(--primary-font-color);
 }
 
-.contact-list-item {
+.contact-email-bottom,
+.contact-number-bottom {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--bottom-font-color);
 }
 /* =====end footer===== */
